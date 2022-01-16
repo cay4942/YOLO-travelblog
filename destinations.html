@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="mainWrapper">
+        <header id="mainHeader">
+            <img class="logo">
+            <h2><a href="index.html">MAIN</a></h2>
+            <h2><a href="about.html">ABOUT</a></h2>
+            <h2><a href="#">PARTNERS</a></h2>
+            <h2><a href="#">SUSTAINABILITY</a></h2>
+            <h2><a href="contact.html">CONTACT</a></h2>
+        </header>
+    </div>
+
+    <div id="destinationsWrapper">
+        <div id="destinationsBanner" class="titleHeader">
+            <h2>PICK YOUR DESTINATION</h2>
+        </div>
+        <select id="destinationBox">
+            <option value="all">ALL</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="Oceania">Oceania</option>
+            <option value="Asia">Asia</option>
+            <option value="South America">South America</option>
+            <option value="Africa">Africa</option>
+        </select>
+        <button id="buttonGo">Show me!</button>
+    </div>
+
+    <ul id="destinationList"></ul>
+
+    <script src="./js/destinations.js"></script>
+</body>
+</html>
